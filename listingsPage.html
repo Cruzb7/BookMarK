@@ -2,114 +2,115 @@
 <html lang="en">
 
 <head>
-  <title>Book MarK</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="StyleSheets.css">
+    <title>Book MarK</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="StyleSheets.css">
 </head>
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="StyleSheets.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="StyleSheets.css">
 </head>
 
 <body>
 
 
-  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
-  <div id="id01" class="modal">
+    <div id="id01" class="modal">
 
-    <form class="modal-content animate" action="/action_page.php">
-      <div class="imgcontainer">
-        <span onclick="document.getElementById('id01').style.display='none'" class="close"
-          title="Close Modal">&times;</span>
-      </div>
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                    title="Close Modal">&times;</span>
+            </div>
 
-      <div class="container">
-        <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
 
-        <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
 
-        <button type="submit">Login</button>
-        <label>
-          <input type="checkbox" checked="checked" name="remember"> Remember me
-        </label>
-      </div>
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
 
-      <div class="container" style="background-color:#f1f1f1">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'"
-          class="cancelbtn">Cancel</button>
-        <span class="psw">Need an account? <a href="signUp.html">Sign Up.</a></span>
-      </div>
-    </form>
-  </div>
-
-  <script>
-    // Get the modal
-    var modal = document.getElementById('id01');
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-      if (event.target == modal) {
-        modal.style.display = "none";
-      }
-    }
-  </script>
-
-  <header>
-    <h1>Books for Sale</h1>
-  </header>
-
-  <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="StyleSheets.css">
-  </head>
-
-  <body>
-
-    <div class="topnav">
-      <a href="mainPage.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <div class="search-container">
-        <form action="/action_page.php">
-          <input type="text" placeholder="Search.." name="search">
-          <button type="submit"><i class="fa fa-search"></i></button>
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="psw">Need an account? <a href="signUp.html">Sign Up.</a></span>
+            </div>
         </form>
-      </div>
     </div>
 
-    <div style="padding-left:0px">
-  </body>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
 
-  <section>
-    <nav>
-      <ul>
-        <h1>Search Books by College</h1>
-        <li><a href="#">Arts and Sciences</a></li>
-        <li><a href="#">Business Administration</a></li>
-        <li><a href="#">Communication</a></li>
-        <li><a href="#">Education</a></li>
-        <li><a href="#">Engineering</a></li>
-        <li><a href="#">Health Sciences</a></li>
-        <li><a href="#">Nursing</a></li>
-      </ul>
-    </nav>
-    
-    <article>
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+    <header>
+        <h1>Books for Sale</h1>
+    </header>
+
+    <head>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="StyleSheets.css">
+    </head>
+
+    <body>
+
+        <div class="topnav">
+            <a href="mainPage.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div style="padding-left:0px">
+    </body>
+
+    <section>
+        <nav>
+            <ul>
+                <h1>Search Books by College</h1>
+                <li><a href="#">Arts and Sciences</a></li>
+                <li><a href="#">Business Administration</a></li>
+                <li><a href="#">Communication</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Engineering</a></li>
+                <li><a href="#">Health Sciences</a></li>
+                <li><a href="#">Nursing</a></li>
+            </ul>
+        </nav>
+
+        <article>
 
 
 
-    </article>
-  </section>
+        </article>
+    </section>
 
-  <footer>
-    <p><a href="sellPage.html">Click Here to Sell Your Books!</a></p>
-  </footer>
+    <footer>
+        <p><a href="sellPage.html">Click Here to Sell Your Books!</a></p>
+    </footer>
 
 </body>
