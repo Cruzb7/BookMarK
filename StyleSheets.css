@@ -9,7 +9,7 @@ body {
 /* Style the header */
 
 header {
-    background-color: rgb(0,51,102);
+    background-color: rgb(0, 51, 102);
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -21,8 +21,8 @@ header {
 nav {
     float: left;
     width: 20%;
-    height: 400px;
-    background: rgb(255,204,0);
+    height: 500px;
+    background: rgb(255, 204, 0);
     padding: 20px;
 }
 
@@ -52,7 +52,7 @@ section:after {
 /* Style the footer */
 
 footer {
-    background-color: rgb(0,51,102);
+    background-color: rgb(0, 51, 102);
     padding: 10px;
     text-align: center;
     color: white;
@@ -233,7 +233,7 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
